@@ -1,12 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom'
-import Home from './components/Home'
-import About from './Components/about/about'
-import Contact from './components/Contact'
-import Layout from './components/Layout'
-import Portfolio from './components/Portfolio'
-import Dashboard from './components/Dashboard'
+// import Home from './components/Home'
+// import About from './Components/About'
+// import Contact from './Components/Contact'
+// import Layout from './components/Layout'
+// import Portfolio from './Components/Portfolio'
+// import Dashboard from './Components/Dashboard'
+
+import Home from "./Components/Home/index";
+import Layout from './Components/Layout';
+import About from "./Components/About/about";
+import Contact from "./Components/Contact/contact";
+import Portfolio from "./Components/Portfolio/index";
+import Dashboard from "./Components/Dashboard/index";
 
 // function App() {
 //   return (
