@@ -13,7 +13,7 @@ code {
 } */
 
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -36,4 +36,67 @@ body {
 @media screen and (max-width: 1200px) {
   body {
     overflow: visible;}
+  } */
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #031a30;
   }
+
+
+  .page-body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #031a30;
+}
+
+
+footer {
+  margin-top: auto;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+form > * {
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  border:  1px solid #ccc;
+  color: white;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: rgb(60, 64, 64);
+  border: none;
+}
+
+form button:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+  color:rgb(243, 244, 247);
+}
+
+.card-border {
+  --borderWidth: 5px;
+  background: #fcfcfc;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.card-border:hover {
+  scale: 1.05;
+}

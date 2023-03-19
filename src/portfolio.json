@@ -1,34 +1,49 @@
-{
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        }
-    ]
-}
+[{
+    "key": "project1",
+    "title": "Travel-california",
+    "description": " In this project, we'll review a creative brief design of 'Travel California' via Figma, and then create the webpage using HTML, CSS and Bootstrap framework.",
+    "image": "/images/01-travel-california.png",
+    "github": "https://github.com/xiaozhao1111/travel-california",
+    "link": "https://xiaozhao1111.github.io/travel-california/"
+  },
+  {
+    "key": "project2",
+    "title": "Snippet Cheatsheet",
+    "description": "In this project, we'll build a webpage that will hold a collection of CSS snippets. Flexbox and media queries will be used to create a responsive grid layout.",
+    "image": "/images/02-css-snippet-cheatsheet.png",
+    "github": "https://github.com/xiaozhao1111/CSS--Snippet-Cheat-Sheet",
+    "link": "https://xiaozhao1111.github.io/CSS--Snippet-Cheat-Sheet/"
+  },
+  {
+    "key": "project3",
+    "title": "Webpage accessibility",
+    "description": "In this project, we'll focus on a very important aspect of web development: accessibility. A existing code will be refactored to make it more accessible.",
+    "image": "/images/03-Webpage-accessibility-codeRefactor.png",
+    "github": "https://github.com/xiaozhao1111/Webpage-accessibility-codeRefactor",
+    "link": "https://xiaozhao1111.github.io/Webpage-accessibility-codeRefactor/"
+  },
+  {
+    "key": "project4",
+    "title": "Team Profile Generator",
+    "description": "In this project, we'll create a Node.js command-line application to take information from terminal and then generate s an HTML webpage of employees information.",
+    "image": "/images/04-Team-Profile-Generator.png",
+    "github": "https://github.com/xiaozhao1111/Team-Profile-Generator",
+    "link": "https://github.com/xiaozhao1111/Team-Profile-Generator"
+  },
+  {
+    "key": "project5",
+    "title": "Weather Dashboard",
+    "description": "In this project, we'll build a weather dashboard with using 'OpenWeather API', Javascript, CSS and HTML. The search history will be stored to local storage.",
+    "image": "/images/05-Weather-Dashboard.png",
+    "github": "https://github.com/xiaozhao1111/Weather-Dashboard",
+    "link": "https://xiaozhao1111.github.io/Weather-Dashboard/"
+  },
+  {
+    "key": "project6",
+    "title": "Plan-Go",
+    "description": "In this application, 6 APIs was used to created responsive webpage. A traveller can quickly get the basic info, weather and map of the destination ",
+    "image": "/images/06-Plan-Go.png",
+    "github": "https://github.com/zamanpour/Plan-Go",
+    "link": "https://zamanpour.github.io/Plan-Go/"
+  }
+]
