@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+
+.nav a:hover {
+    color: bisque;
+    text-decoration: underline;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item:last-of-type {
+    padding-right: 25px;
+}
