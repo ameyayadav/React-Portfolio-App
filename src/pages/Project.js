@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectGallery from "../components/ProjectGallery";
+import ProjectGallery from "";
 
 function Projects() {
     return (
